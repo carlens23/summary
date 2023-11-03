@@ -1,0 +1,150 @@
+:root {
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    background-color: var(--Pale-blue);
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(../imagens/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+main {
+    width: 420px;
+    height: 595px;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    color: var(--Desaturated-blue);
+    border: 1em;
+    border-radius: 20px;
+    box-shadow: 0 0.1em 0.5em rgba(226, 214, 214, 0.768);
+}
+
+.img-hero {
+    display: block;
+} 
+
+.main {
+    padding-top: 30px;
+}
+
+.main > h1 {
+    color: var(--Dark-blue);
+    padding-bottom: 20px;
+} 
+
+.main > p {
+    color: var(--pale-blue);
+    text-align: center;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    width: 85%;
+
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    top: -15px;
+    right: -10%;
+    width: 80%;
+    padding: 1em;
+    margin: 2em 0;
+    border-radius: 0.5em;
+    background-color: #eeeff8d6;
+    margin-bottom: 0;
+}
+
+.block-img {
+    margin-left: 0.5em;
+    margin-right: 1em;
+    width: 15%;
+}
+
+.block-text {
+    text-align: left;
+    color: var(--Desaturated-blue);
+}
+
+.block-title {
+    color: var(--Dark-blue);
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block-link {
+    color: var(--Bright-blue);
+    position: relative;
+    left: 95px;
+    top: 10px;
+}
+
+.block-link:hover {
+    color: #746BEF;
+    text-decoration: none;
+}
+
+.btn {
+    width: 80%; 
+    padding: 1em;
+    margin: 1em 0;
+    font-weight: 600;
+    color: #FFF;
+    border-radius: 0.5em;
+    box-shadow: 0 1em 0.9em hsl(226, 40%, 92%);
+    background-color: hsl(245, 75%, 52%);
+    margin-bottom: 20px;
+    border: 0px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: hsl(244, 81%, 68%);
+}
+
+.main-link {
+    color: inherit;
+    width: 60%;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.paraf {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-bottom: 15px;
+}
+
+.paraf a:hover {
+    color: hsl(244, 81%, 68%);
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
